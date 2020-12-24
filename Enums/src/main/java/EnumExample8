@@ -1,0 +1,18 @@
+enum Fructe {
+    MERE, PERE, PRUNE, CAISE, PIERSICI;
+}
+
+class EnumExample8 {
+
+    public static void main(String[] args) {
+
+        Fructe piersici = Fructe.PIERSICI;
+        System.out.println("Ieri am fost la piata si am cumparat " + piersici);
+        System.out.println("Fructe recunoscute:");
+
+        for (Fructe fructe : Fructe.values()) {
+            System.out.println("*" + fructe);
+        }
+    }
+}
+

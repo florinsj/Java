@@ -1,0 +1,15 @@
+//define enum outside class
+enum Season4 {
+    WINTER, SPRING, SUMMER, FALL;
+}
+
+public class EnumExample4 {
+
+    //main()
+    public static void main(String[] args) {
+
+        Season4 s = Season4.WINTER;
+        System.out.println(s);
+
+    }
+}
