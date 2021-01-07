@@ -1,0 +1,10 @@
+// :: - double colons signal to Java Compiler that this is a method reference
+// the method reference is what cames after  ::
+// class or object whow owns the method comes before ::
+
+It can be referenced the folowing methods :
+    - static methods
+    - instance method on parameter objects
+    - instance method
+    - constructor
+   

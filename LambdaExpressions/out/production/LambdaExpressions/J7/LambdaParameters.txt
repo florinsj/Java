@@ -1,0 +1,64 @@
+Parameters type
+
+    In Java 8 , the parameter's type in lambda expressions will be inferred !
+    We can specify the type
+        or
+    we can use "var"
+        or
+    we can just write the parameters without specify the type
+
+    Sometimes we have to specify the paramter's type.(the compiller will tell)
+
+    Example with type specify :
+        (Car car)->System.out.println("The car is: "+ car.getName());
+
+    Example with type specify usig var keyword from Java11
+        Function<String,String> toLowerCase=(var input)->input.toLowerCase();
+
+
+
+Zero parameters
+
+    - if the method you are matching your lambda expression against takes no parameters,
+       then you can write the lambda expression like this:
+
+        ()-->System.out.println("Zero parameter lambda");
+
+One parameter
+    - if the method you are matching your lambda expression against take one parameter,
+      then you can write the lambda expression like this:
+
+      (param) -> System.out.println("One parameter "+param);
+
+        or without parentheses :
+
+      (param) -> System.out.println("One parameter "+param);
+
+
+
+Multiple parameters
+
+    - if the method that you are matching against take multiple parameters, the parameters
+      need to be listed inside parentheses.
+
+        (p1,p2) -> System.out.println("Multiple parameters "+p1+","+p2);
+
+Lambda expression body
+
+        - when we have more statements we have to put them inside { } brakets
+
+          Examples :
+                (oldState,newState)-> System.out.println("state changed");
+
+                (oldState,newState)-> { System.out.println("state changed1"); }
+
+                (oldState,newState)-> {
+                System.out.println("state changed1");
+                System.out.println("state changed1");
+                }
+
+Returnig a value from lambda expression
+    (param) -> {
+                System.out.println("param: "+param);
+                return "return value";
+                }
