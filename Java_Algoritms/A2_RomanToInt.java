@@ -23,11 +23,11 @@
   I can be placed before V (5) and X (10) to make 4 and 9.
   X can be placed before L (50) and C (100) to make 40 and 90.
   C can be placed before D (500) and M (1000) to make 400 and 900. */
-package Java_Exercises;
+package Java_Algoritms;
 
-public class E3_RomanToInt {
+public class A2_RomanToInt {
     public static void main(String[] args) {
-        E3_RomanToInt ob = new E3_RomanToInt();
+        A2_RomanToInt ob = new A2_RomanToInt();
         String str1 = "XII";
         String str2 = "MCMIV";
         System.out.println("Integer form of " + str1 + " is: " + ob.romanToInt(str1));
