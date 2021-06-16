@@ -1,4 +1,4 @@
-// Florin Stanciu
+ // Florin Stanciu
 // Learning Java
 // Find Largest and secondLargest number from an array of ints
 package Java_Algoritms;
