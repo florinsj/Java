@@ -9,9 +9,9 @@ package Java_Codewars;
 //        spinWords("Hey fellow warriors") => "Hey wollef sroirraw"
 //        spinWords("This is a test") => "This is a test"
 //        spinWords("This is another test") => "This is rehtona test"
-public class SpinWords2 {
+public class C1_SpinWords2 {
     public static void main(String[] args) {
-        SpinWords2 testObj = new SpinWords2();
+        C1_SpinWords2 testObj = new C1_SpinWords2();
         System.out.println(testObj.spinWords2("Hey fellow warriors "));
         System.out.println(testObj.spinWords2("This is a test "));
         System.out.println(testObj.spinWords2("Welcome"));
