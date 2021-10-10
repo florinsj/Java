@@ -8,7 +8,7 @@ public class C2_TriangleTester {
     public static void main(String[] args) {
         System.out.println(isTriangle(3, 2, 1));
         System.out.println(isTriangle(1, 2, 7));
-        
+
     }
 
     public static boolean isTriangle(int a, int b, int c) {
