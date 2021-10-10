@@ -9,8 +9,8 @@ package Java_Codewars;
 
 public class C3_ReverseWords {
     public static void main(String[] args) {
-        reverseWords("Hello world1");
-        reverseWords("Hello    world2");
+        System.out.println(reverseWords("Hello world1"));
+        System.out.println(reverseWords("Hello    world2"));
     }
 
     public static String reverseWords(final String original) {
@@ -27,7 +27,7 @@ public class C3_ReverseWords {
         String str = String.join(".", words);
         str = str.replace(".", " ");
         System.out.println("Str=[" + str + "]");
-        return String.join(" ", words);
+        return str;
     }
 
 }
