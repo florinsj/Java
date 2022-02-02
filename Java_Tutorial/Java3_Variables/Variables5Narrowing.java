@@ -33,15 +33,16 @@
 // sintax  without initialization: --> dataType variableName;          ex. int data;
 // sintax  with initialization   : --> dataType variableName=value;    ex. int data=50;
 
-// ex. --> overflow
+// ex. --> narrowing (type casting)
 package Java_Tutorial;
 
-public class T3_Variables6Overflow {
+public class Variables5Narrowing {
     public static void main(String[] args) {
-        int a=130;
-
-        byte b=(byte)a; // byte type has values in [-128..+127]
+        float f=10.5f;
+        // int a=f;  --> compile error
+        int a=(int) f;  // type cast
+        System.out.println(f);
         System.out.println(a);
-        System.out.println(b);
+
     }
 }

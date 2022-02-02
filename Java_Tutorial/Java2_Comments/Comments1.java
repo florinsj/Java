@@ -18,7 +18,7 @@
 // ex : single-line and multi-line comments
 package Java_Tutorial;
 
-public class T2_Comments1 {
+public class Comments1 {
 
     public static void main(String[] args) {
 

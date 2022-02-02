@@ -1,9 +1,9 @@
 package Java_Tutorial.Java3_Variables;
 
-public class T3_Variables8Address {
+public class Variables8Address {
     public static void main(String[] args) {
 
-        T3_Variables8Address x = new T3_Variables8Address();
+        Variables8Address x = new Variables8Address();
         System.out.println("\n\t Type of x is " + x.getClass().getName() + "\n\t value of x is " +
                 x + "\n\t address of x is  " + x.hashCode());
         byte[] y = new byte[10];

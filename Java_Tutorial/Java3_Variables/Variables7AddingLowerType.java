@@ -33,14 +33,15 @@
 // sintax  without initialization: --> dataType variableName;          ex. int data;
 // sintax  with initialization   : --> dataType variableName=value;    ex. int data=50;
 
-// ex. --> add Two Numbers
+// ex. --> adding lower type
 package Java_Tutorial;
 
-public class T3_Variables3AddNumbers {
+public class Variables7AddingLowerType {
     public static void main(String[] args) {
-        int a=10;
-        int b=20;
-        int c=a+b;
+        byte a=10;
+        byte b=10;
+        // byte c=a+b; // compile error because a and b will pe treated as integers
+        byte c=(byte)(a+b);
         System.out.println(c);
     }
 }

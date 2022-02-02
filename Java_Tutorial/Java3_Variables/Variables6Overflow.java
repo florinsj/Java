@@ -33,15 +33,15 @@
 // sintax  without initialization: --> dataType variableName;          ex. int data;
 // sintax  with initialization   : --> dataType variableName=value;    ex. int data=50;
 
-// ex. --> adding lower type
+// ex. --> overflow
 package Java_Tutorial;
 
-public class T3_Variables7AddingLowerType {
+public class Variables6Overflow {
     public static void main(String[] args) {
-        byte a=10;
-        byte b=10;
-        // byte c=a+b; // compile error because a and b will pe treated as integers
-        byte c=(byte)(a+b);
-        System.out.println(c);
+        int a=130;
+
+        byte b=(byte)a; // byte type has values in [-128..+127]
+        System.out.println(a);
+        System.out.println(b);
     }
 }

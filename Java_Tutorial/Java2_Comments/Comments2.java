@@ -20,7 +20,7 @@
  // ex. - documentation comments
 package Java_Tutorial;
 
-public class T2_Comments2 {
+public class Comments2 {
     public static void main(String[] args) {
         /** this is a documentation
          * comment

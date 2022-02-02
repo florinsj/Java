@@ -33,15 +33,14 @@
 // sintax  without initialization: --> dataType variableName;          ex. int data;
 // sintax  with initialization   : --> dataType variableName=value;    ex. int data=50;
 
-// dataTypes example
+// ex. --> add Two Numbers
 package Java_Tutorial;
 
-public class T3_Variables2 {
+public class Variables3AddNumbers {
     public static void main(String[] args) {
-        String name="David";
-        int age=42;
-        double score=15.9;
-        char group='Z';
-        boolean foundIt=true;
+        int a=10;
+        int b=20;
+        int c=a+b;
+        System.out.println(c);
     }
 }

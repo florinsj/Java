@@ -33,16 +33,15 @@
 // sintax  without initialization: --> dataType variableName;          ex. int data;
 // sintax  with initialization   : --> dataType variableName=value;    ex. int data=50;
 
-// ex. --> narrowing (type casting)
+// ex. --> widening    --- no need to cast
 package Java_Tutorial;
 
-public class T3_Variables5Narrowing {
+public class Variables4Widening {
     public static void main(String[] args) {
-        float f=10.5f;
-        // int a=f;  --> compile error
-        int a=(int) f;  // type cast
-        System.out.println(f);
+        int a=10;
+        float f=a;
         System.out.println(a);
-
+        System.out.println(f);
     }
+
 }

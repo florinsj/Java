@@ -35,7 +35,7 @@
 
 package Java_Tutorial;
 
-public class T3_Variables1 {
+public class Variables1 {
 
     int data =50; // instance variable ,type int and initialization value
 
